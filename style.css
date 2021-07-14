@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap');
+*{
+    margin:0%;
+    padding: 0%;
+}
+
+/*background*/
+
+body{
+    
+    background-image: url('https://cdn.dribbble.com/users/626415/screenshots/11136335/jm_driibbble_rappi5_4x.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*text styling on home page*/
+   
+.h1{
+    font-size: 55px;
+    font-family: monospace;
+    letter-spacing: 3px;
+}
+
+.box{
+    color:blanchedalmond;
+    position: absolute;
+    top:40%;
+    left:10%;
+    z-index: 5;
+    animation: moveright 1s linear 1;
+    animation-delay: 3s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+} 
+
+/*animation for the text content*/
+
+@keyframes moveright{
+    0%{
+        transform: translateX(-100px);
+        visibility: visible;
+    }
+    100%{
+        transform: translateX(0px);
+        visibility: visible;
+    }
+}
+
+.btn btn-danger{
+    color:black;
+}
+
+
+
+.nav-link{
+    text-decoration: none;
+    margin:0px 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    animation: movedown 1s linear 1;
+    animation-delay: 1s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+
+/*navigation starts here*/
+
+
+.nav-link:hover{
+    background-color:lightgoldenrodyellow;
+   
+}
+.navbar-brand{
+    background-color: bisque;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 30px;
+    padding:5px;
+    font-family:Arial, Helvetica, sans-serif;
+    animation: movedown 1s linear 1;
+    animation-delay: 0.5s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+
+}
+/*animation for navigation*/
+
+@keyframes movedown{
+    0%{
+        transform: translateY(-100px);
+        visibility: visible;
+    }
+    100%{
+        transform: translateY(0px);
+        visibility: visible;
+    }
+
+}
+

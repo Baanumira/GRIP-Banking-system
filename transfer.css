@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background:url('https://cdn.dribbble.com/users/626415/screenshots/11136335/jm_driibbble_rappi5_4x.png') ;
+    background-position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2{
+    color:lightcyan;
+}
+
+/* transaction table*/
+
+.table-responsive{
+    font-size: 18px;
+}
+
+/*navigation*/
+
+.nav-link{
+    margin:0px 7px;
+}
+.nav-link:hover{
+    background-color:lightgoldenrodyellow;
+}
